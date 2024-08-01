@@ -1,0 +1,78 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+.encabezado{
+    display: flex;
+    background-color:rgb(0, 0, 75);
+    color: white;
+    height: 60px;
+    justify-content: center;
+    align-items: center;
+}
+
+.bienvenida{
+    height: 18vh;
+    font-size: 25px;
+    font-family:Arial, Helvetica;
+    padding: 5%;
+    text-align: center;
+    font-weight: bold;
+}
+
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.curso img{
+    width: 50%;
+    height: auto;
+}
+
+.curso{
+    width: 30%;
+    margin: 20px;
+    padding: 20px;
+}
+
+.opciones{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 20px;
+}
+
+button{
+    padding: 10px 20px;
+    background-color: navy;
+    color: white;
+    border: none;
+    cursor: pointer;
+    margin: 20px;
+}
+
+.titulo{
+    font-size: 35px;
+    font-weight: bold;
+    margin: 20px;
+    text-align: center;
+}
+
+.formulario{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+
+.alerta {
+    text-align: center;
+}
